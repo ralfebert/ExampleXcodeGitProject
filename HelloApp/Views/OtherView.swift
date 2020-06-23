@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  OtherView.swift
 //  HelloApp
 //
 //  Created by Ralf Ebert on 23.06.20.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct OtherView: View {
     var body: some View {
-        OtherView().padding()
+        Text("Hello, World!")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct OtherView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        OtherView()
     }
 }
